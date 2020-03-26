@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        Email.send({
+        Host : "smtp.gmail.com",
+        Username : "irwanlearn@gmail.com",
+        Password : "Irwanlearn1ng",
+        To : 'irwanlearn@gmail.com',
+        From : "irwanlearn@gmail.com",
+        Subject : "Task Completed",
+        Body : "Hi!, ini Irwan dari Dicoding Selamat anda mendapatkan paket bonus akses selamanyaaaaaa"
+    }).then(
+      message => alert(`${alert}`)
+    );
+    </script>
+</body>
+</html>
